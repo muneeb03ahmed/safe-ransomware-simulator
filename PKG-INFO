@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: ransomware-lab-cli
+Version: 0.1.0
+Summary: Safe ransomware simulation & detection lab (sandbox-only)
+Requires-Python: >=3.11
+Requires-Dist: typer[all]>=0.9
+Requires-Dist: rich>=13.0
+Requires-Dist: pydantic>=2.5
+Requires-Dist: watchdog>=3.0
+Requires-Dist: loguru>=0.7
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: pyinstaller>=5.10; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: mypy; extra == "dev"

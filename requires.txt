@@ -1,0 +1,12 @@
+typer[all]>=0.9
+rich>=13.0
+pydantic>=2.5
+watchdog>=3.0
+loguru>=0.7
+
+[dev]
+pytest>=7.0
+pyinstaller>=5.10
+ruff
+black
+mypy
